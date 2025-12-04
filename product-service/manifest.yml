@@ -1,0 +1,7 @@
+applications:
+- buildpack: dotnet_core_buildpack
+  name: product-service
+  services:
+  - config
+  - registry
+  stack: cflinuxfs4

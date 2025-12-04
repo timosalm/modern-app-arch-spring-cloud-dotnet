@@ -1,0 +1,13 @@
+{
+  "profiles": {
+    "ProductService": {
+      "commandName": "Project",
+      "launchBrowser": true,
+      "launchUrl": "api/v1/products",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      },
+      "applicationUrl": "https://localhost:54783;http://localhost:54784"
+    }
+  }
+}

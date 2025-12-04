@@ -1,0 +1,7 @@
+---
+ProductServiceOptions:
+  ProductNames:
+  - Tanzu Platform
+  - Tanzu Data Intelligence
+  - Tanzu Spring Essentials
+  - Bitnami Secure Images
