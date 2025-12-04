@@ -5,6 +5,15 @@
     <ImplicitUsings>enable</ImplicitUsings>
   </PropertyGroup>
   <ItemGroup>
+    <PackageReference Include="Steeltoe.Common.Logging" Version="4.0.0" />
+    <PackageReference Include="Steeltoe.Configuration.ConfigServer" Version="4.0.0" />
+    <PackageReference Include="Steeltoe.Configuration.CloudFoundry " Version="4.0.0" />
+    <PackageReference Include="Steeltoe.Discovery.Eureka" Version="4.0.0" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Update="Properties\launchSettings.json">
+      <CopyToPublishDirectory>Never</CopyToPublishDirectory>
+    </Content>
   </ItemGroup>
 </Project>
 
